@@ -18,6 +18,24 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c62f0bfc_0b5df687",
+        "filename": "edpm-image-builder.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-06T09:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "beb77a53_0a5fdba5",
+      "revId": "417a8084c3c3707c050b6eef3e05f9da765e013e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0008dda0_7c061da8",
@@ -41,6 +59,30 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "38c4c1b5_c4fd77bd",
+        "filename": "edpm-image-builder.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-06T09:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0008dda0_7c061da8",
+      "range": {
+        "startLine": 21,
+        "startChar": 22,
+        "endLine": 21,
+        "endChar": 29
+      },
+      "revId": "417a8084c3c3707c050b6eef3e05f9da765e013e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "32ca9c66_d166e859",
@@ -54,6 +96,24 @@
       "writtenOn": "2023-06-01T22:37:15Z",
       "side": 1,
       "message": "It also has elements and files to build ironic-python-agent, which is used by podified ironic for BMAAS. So its not exclusively EDPM involved images",
+      "revId": "417a8084c3c3707c050b6eef3e05f9da765e013e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f14b9d2_d2e34114",
+        "filename": "edpm-image-builder.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-06T09:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "32ca9c66_d166e859",
       "revId": "417a8084c3c3707c050b6eef3e05f9da765e013e",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
