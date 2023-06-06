@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1aef727_5d085b25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-06T09:48:38Z",
+      "side": 1,
+      "message": "The BZ has been updated with fedora-review process output https://bugzilla.redhat.com/show_bug.cgi?id\u003d2208514",
+      "revId": "1f30a2ae43203a8bef3ecbb60223f0a6c738241e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
