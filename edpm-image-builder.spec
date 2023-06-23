@@ -4,7 +4,7 @@ Name:           edpm-image-builder
 Summary:        Builder of edpm required images
 Version:        XXX
 Release:        XXX
-License:        ASL 2.0
+License:        Apache-2.0
 Group:          System Environment/Base
 URL:            https://github.com/openstack-k8s-operators/edpm-image-builder/
 Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/edpm-image-builder-%{upstream_version}.tar.gz
@@ -14,6 +14,7 @@ BuildArch:      noarch
 BuildRequires:  git-core
 BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
+BuildRequires:  pyproject-rpm-macros
 
 Requires:       diskimage-builder >= 3.24.0
 Requires:       openstack-ironic-python-agent-builder
@@ -25,14 +26,16 @@ diskimage-builder.
 
 %prep
 %autosetup -n %{name}-%{upstream_version} -S git
+
+# We are not using automatic requiremens for this package
 # Let RPM handle the dependencies
 rm -f {,test-}requirements.txt
 
 %build
-%{py3_build}
+%pyproject_wheel
 
 %install
-%{py3_install}
+%pyproject_install
 
 %files
 %license LICENSE
