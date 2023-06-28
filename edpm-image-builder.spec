@@ -8,6 +8,8 @@ License:        ASL 2.0
 Group:          System Environment/Base
 URL:            https://github.com/openstack-k8s-operators/edpm-image-builder/
 Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/edpm-image-builder-%{upstream_version}.tar.gz
+Source1:        Containerfile.image.sample
+Source2:        Containerfile.ramdisk.sample
 
 BuildArch:      noarch
 
@@ -27,6 +29,10 @@ diskimage-builder.
 %autosetup -n %{name}-%{upstream_version} -S git
 # Let RPM handle the dependencies
 rm -f {,test-}requirements.txt
+
+# Copy Container files
+cp %{SOURCE1} /usr/share/edpm-image-builder/Containerfile.image
+cp %{SOURCE2} /usr/share/edpm-image-builder/Containerfile.ramdisk
 
 %build
 %{py3_build}
