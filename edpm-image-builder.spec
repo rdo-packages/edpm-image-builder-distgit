@@ -8,6 +8,8 @@ License:        ASL 2.0
 Group:          System Environment/Base
 URL:            https://github.com/openstack-k8s-operators/edpm-image-builder/
 Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/edpm-image-builder-%{upstream_version}.tar.gz
+Source1:        https://github.com/openstack-k8s-operators/edpm-image-builder/Containerfile.image
+Source2:        https://github.com/openstack-k8s-operators/edpm-image-builder/Containerfile.ramdisk
 
 BuildArch:      noarch
 
