@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2b4262e_3040feb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-06-28T13:22:23Z",
+      "side": 1,
+      "message": "those files are in upstream repo so we should get them from there, not as source files in the distgit. You can leverage the data_files option in setup.cfg so that those files are copied as part of setup.py install",
+      "revId": "a43c95818bf42a15a8b7e0323f31fe4ef7a46cf5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
