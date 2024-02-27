@@ -10,6 +10,7 @@ URL:            https://github.com/openstack-k8s-operators/edpm-image-builder/
 Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/edpm-image-builder-%{upstream_version}.tar.gz
 
 BuildArch:      noarch
+Patch0:         0001-Fix-Multiple-top-level-packages-discovered-in-a-flat.patch
 
 BuildRequires:  git-core
 BuildRequires:  python3-devel
