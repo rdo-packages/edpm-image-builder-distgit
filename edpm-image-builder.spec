@@ -47,3 +47,4 @@ rm -f {,test-}requirements.txt
 %{_datadir}/edpm-image-builder
 
 %changelog
+# REMOVEME: error caused by commit https://github.com/openstack-k8s-operators/edpm-image-builder/commit/758c17a4c01f3dab4486d4962a153c56e372c2aa
