@@ -39,5 +39,6 @@ rm -f {,test-}requirements.txt
 %doc README.rst
 %{python3_sitelib}/edpm_image_builder*
 %{_datadir}/edpm-image-builder
+%{_bindir}/block-device-yaml
 
 %changelog
