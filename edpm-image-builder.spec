@@ -7,7 +7,7 @@ Release:        XXX
 License:        Apache-2.0
 Group:          System Environment/Base
 URL:            https://github.com/openstack-k8s-operators/edpm-image-builder/
-Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/edpm-image-builder-%{upstream_version}.tar.gz
+Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/archive/%{upstream_version}/%{name}-%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 
