@@ -2,12 +2,12 @@
 
 Name:           edpm-image-builder
 Summary:        Builder of edpm required images
-Version:        XXX
-Release:        XXX
+Version:        0.1.0
+Release:        1%{?dist}
 License:        Apache-2.0
 Group:          System Environment/Base
 URL:            https://github.com/openstack-k8s-operators/edpm-image-builder/
-Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/edpm-image-builder-%{upstream_version}.tar.gz
+Source0:        https://github.com/openstack-k8s-operators/edpm-image-builder/archive/%{upstream_version}/%{name}-%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 
@@ -48,3 +48,6 @@ rm -f {,test-}requirements.txt
 %{_bindir}/block-device-yaml
 
 %changelog
+* Thu Sep 26 2024 RDO <dev@lists.rdoproject.org> 0.1.0-1
+- Update to 0.1.0
+
