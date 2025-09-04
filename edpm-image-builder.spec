@@ -48,3 +48,4 @@ rm -f {,test-}requirements.txt
 %{_bindir}/block-device-yaml
 
 %changelog
+# REMOVEME: error caused by commit https://github.com/openstack-k8s-operators/edpm-image-builder/commit/0753302c26bc3123be82afa517c6ddc74b50a966
